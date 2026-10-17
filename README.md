@@ -7,7 +7,7 @@
 
 ## Começar · Getting started
 
-**Um repositório por par** · one repository per pair: um dos dois faz *fork* deste repositório (privado, com o par e `davidmgvaz` como colaboradores) · one of you forks this repo (private, with your pair and `davidmgvaz` as collaborators).
+**Ficha 02: um fork por pessoa** · Ficha 02: one fork per person — a ficha é individual; cada um faz *fork* deste repositório (privado, com `davidmgvaz` como colaborador) · the worksheet is individual; each of you forks this repo (private, with `davidmgvaz` as collaborator). **Projeto (M1–M3): um repositório por par** · project: one repository per pair — no M1 o par escolhe um dos dois forks (e acrescenta o colega como colaborador) · at M1 the pair picks one of the two forks (and adds the partner as collaborator).
 
 ```sh
 git clone git@github.com:<vosso-utilizador>/isla-dwfa-ecommerce.git
