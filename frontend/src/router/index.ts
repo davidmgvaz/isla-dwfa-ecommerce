@@ -1,9 +1,14 @@
-// src/router/index.ts — o urls.py do frontend. Vazio por agora: as rotas chegam no Passo 3.
+// src/router/index.ts — o urls.py do frontend: um URL por ecrã.
 import { createRouter, createWebHistory } from 'vue-router'
+
+import ProductsView from '@/views/ProductsView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
-  routes: [],
+  routes: [
+    { path: '/', redirect: { name: 'products' } },
+    { path: '/products', name: 'products', component: ProductsView },
+  ],
 })
 
 export default router
