@@ -34,9 +34,8 @@ function goTo(n: number) {
   router.push({ query: { ...route.query, page: n > 1 ? n : undefined } })
 }
 
-// No Passo 4 isto passa a abrir o detalhe; por agora só mostra o id na consola.
 function open(id: number) {
-  console.log('select', id)
+  router.push({ name: 'product', params: { id } })
 }
 </script>
 
